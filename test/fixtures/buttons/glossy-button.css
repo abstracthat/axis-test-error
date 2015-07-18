@@ -1,7 +1,7 @@
 .glossy-button {
   font-size: 13px;
   padding: 10px 22px;
-  border-radius: 3px;
+  border-radius: 10px;
   background: #0084f6;
   background: #0068c3 -webkit-linear-gradient(top, #0084f6, #0068c3) repeat-x;
   background: #0068c3 -moz-linear-gradient(top, #0084f6, #0068c3) repeat-x;

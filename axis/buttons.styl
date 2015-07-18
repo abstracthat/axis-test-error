@@ -56,7 +56,7 @@ button(color = default-color, size = "medium", textColor = null)
   // dynamically calculated styles
   font-size: unit(parsed_size, 'px')
   padding: unit(height, 'px') unit(width, 'px')
-  border-radius: round(parsed_size / 4.33333px)
+  border-radius: 10px
   background-color: color
   color: textColor
 
@@ -119,7 +119,7 @@ glossy-button(color = default-color, size = "medium", textColor = null, shadowCo
   // dynamically calculated styles
   font-size: unit(parsed_size, 'px')
   padding: unit(height, 'px') unit(width, 'px')
-  border-radius: round(parsed_size/4.33333px)
+  border-radius: 10px
   gradient: color
   text-shadow: 1px 1px 1px shadowColor
   border: s('1px solid %s', darken(color, 10%))
